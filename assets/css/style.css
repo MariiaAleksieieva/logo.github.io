@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(254, 248, 241);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    background-color: rgb(250, 240, 233);
+}
+
+.main {
+    display: block;
+    margin: 10% auto;
+
+}
+
+.card {
+    margin: 3% auto;
+}
+
+small {
+    margin-top: 2%;
+}
+
+input:invalid + p + small {
+    display: none;
+}
+
+input:valid + p {
+    display: none;
+}
+
+
+@media (min-width: 500px) {
+    .card {
+        min-width: 75%;
+    }
+}
+
+@media (min-width: 500px) {
+    .card {
+        max-width: 45%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card {
+        max-width: 35%;
+    }
+}
