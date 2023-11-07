@@ -20,18 +20,13 @@ body {
     margin: 3% auto;
 }
 
-small {
-    margin-top: 2%;
-}
-
-input:invalid + p + small {
+input:invalid + p + p {
     display: none;
 }
 
 input:valid + p {
     display: none;
 }
-
 
 @media (min-width: 500px) {
     .card {
